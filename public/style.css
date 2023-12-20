@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
+body div {
+    margin: 0px;
+    padding: 0px;
+}
+
+#left-col {
+    width: 7%;
+    background-color: #3c415c;
+    color: rgb(238, 238, 238);
+}
+
+#rooms {
+    width: 20%;
+    color: rgb(238, 238, 238);
+    background-color: #1e1f30;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+ li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#chat {
+    width: 73%;
+    background-color: #b8bace;
+    color: black;
+}
+
+.text {
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+#chat-window {
+    height: 80vh;
+    overflow-y: hidden;
+}
+#message-area {
+    height: 8vh;
+}
+
+#message {
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+
+#send-message {
+    width: 7%;
+    height: 80%;
+    margin: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    background-color: #3c415c;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
